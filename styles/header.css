@@ -44,3 +44,38 @@ header .container {
   display: flex;
   gap: 8px;
 }
+
+@media (width < 768px) {
+  header .container, #profile {
+    flex-direction: column;
+  }
+
+  header .container {
+    padding-inline: 32px;
+  }
+
+  #profile {
+    gap: 16px;
+    margin-bottom: 32px;
+    width: 100%;
+  }
+  
+  #profile img {
+    height: 120px;
+    width: 120px;
+  }
+
+  #info {
+    width: 100%;
+  }
+}
+
+@media(768px <= width < 1024px) {
+  #profile > div {
+    max-width: 230px;
+  }
+
+  #info {
+    max-width: 168px;
+  }
+}

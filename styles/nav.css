@@ -20,3 +20,13 @@ nav ul li:last-child img {
   width: 40px;
   object-fit: cover;
 }
+
+@media (width < 768px) {
+  nav {
+    padding-block: 16px;
+  }
+
+  nav ul li:nth-child(2), nav ul li:nth-child(3) {
+    display: none;
+  }
+}

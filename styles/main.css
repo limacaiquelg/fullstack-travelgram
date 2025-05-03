@@ -2,11 +2,27 @@ main {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
+  justify-content: center;
   padding-block: 24px;
 }
 
 main img {
   height: 286px;
+  max-width: 328px;
   object-fit: cover;
   width: 286px;
+}
+
+@media (width < 620px) {
+  main img {
+    height: auto;
+    width: 100%;
+  }
+}
+
+@media (width < 768px) {
+  main {
+    gap: 16px;
+    padding-block: 16px;
+  }
 }
