@@ -7,17 +7,13 @@ main {
 }
 
 main img {
-  height: 286px;
+  aspect-ratio: 1/1;
+  box-sizing: border-box;
+  flex: 1 1 286px;
   max-width: 328px;
+  min-width: 0;
   object-fit: cover;
-  width: 286px;
-}
-
-@media (width < 620px) {
-  main img {
-    height: auto;
-    width: 100%;
-  }
+  width: 100%;
 }
 
 @media (width < 768px) {
