@@ -27,6 +27,6 @@
     <li>Utilização da ferramenta DevTools do navegador</li>
 </ul>
 
-<p align="justify">As alterações necessárias para tornar a página responsiva estão contidas no commit <a href="https://github.com/limacaiquelg/fullstack-travelgram/commit/7174e2376f8c74a4cbc9089e8c8b815aae8c0c2f">7174e23</a>.</p>
+<p align="justify">As alterações necessárias para tornar a página responsiva estão contidas no commit <a href="https://github.com/limacaiquelg/fullstack-travelgram/commit/7174e2376f8c74a4cbc9089e8c8b815aae8c0c2f">7174e23</a> e <a href="https://github.com/limacaiquelg/fullstack-travelgram/commit/e9f6ebaef7d60c35978d0731f60470f07f8cb759">e9f6eba</a>.</p>
 
 <p align="justify">Este projeto faz parte da formação Full-Stack da <a href="https://www.rocketseat.com.br">Rocketseat</a>.</p>
